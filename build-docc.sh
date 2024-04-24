@@ -42,3 +42,5 @@ xcrun docc process-archive transform-for-static-hosting \
 
 ## 7) ./build-docc.sh
 ## 8) open .docs
+
+echo '<script>window.location.href += "/documentation/givenwithlove"</script>' > .docs/index.html
