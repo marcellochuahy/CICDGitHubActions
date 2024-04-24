@@ -38,7 +38,7 @@ xcrun xcodebuild docbuild \
 xcrun docc process-archive transform-for-static-hosting \
     "$PWD/.derivedData/Build/Products/Debug-iphonesimulator/GivenWithLove.doccarchive" \
     --output-path ".docs" \
-    --hosting-base-path "" # add your repo name later
+    --hosting-base-path "CICDGitHubActions" # add your repo name later
 
 ## 7) ./build-docc.sh
 ## 8) open .docs
